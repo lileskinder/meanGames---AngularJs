@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="meanGames"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+
+    <title>MEAN Games</title>
+</head>
+
+<body>
+    <h1>MEAN Games Homepage.</h1>
+
+    <div ng-view>
+
+    </div>
+
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="../node_modules/angular-route/angular-route.js"></script>
+    <script src="angular-app/app.js"></script>
+    <script src="angular-app/game-list/game-list-controller.js"></script>
+    <script src="angular-app/games-data-factorty/games-data-factory.js"></script>
+    <script src="angular-app/game-display/game-display-controller.js"></script>
+    <script src="angular-app/game-rating/game-rating-directive.js"></script>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted text-center">
+                <a href="https://compro.miu.edu/" target="_blank">
+                    <img src="./images/compro-web-logo-442x112 (1).png" height="60" alt="MIU Compro Logo">
+                </a>
+                <br>
+                <small class="text-black-50 text-cent">
+                    &copy; 2021 Maharishi international University. All rights reserved.
+                </small>
+
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
